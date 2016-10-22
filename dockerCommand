@@ -1,1 +1,1 @@
-docker  run  --name raspbian  --privileged --net=host --cap-add=ALL -v  /dev:/dev  -v  /lib/modules:/lib/modules image-id
+docker  run -i -t --name raspbian  --privileged --net=host --cap-add=ALL -v  /dev:/dev  -v  /lib/modules:/lib/modules juan/raspbian:adhoc /bin/bash
